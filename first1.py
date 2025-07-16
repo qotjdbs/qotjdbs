@@ -6,7 +6,7 @@ st.title("2025년 5월 기준 연령별 인구 현황 분석")
 
 # CSV 파일 업로드
 uploaded_file = st.file_uploader("CSV 파일을 업로드하세요 (EUC-KR 인코딩)", type="csv")
-if uploaded_file is not None:
+if true:
     # 데이터 불러오기
     df = pd.read_csv(uploaded_file, encoding='EUC-KR')
 
