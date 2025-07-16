@@ -8,7 +8,7 @@ st.title("2025년 5월 기준 연령별 인구 현황 분석")
 uploaded_file = st.file_uploader("CSV 파일을 업로드하세요 (EUC-KR 인코딩)", type="csv")
 if true:
     # 데이터 불러오기
-    df = pd.read_csv(uploaded_file, encoding='EUC-KR')
+    df = pd.read_csv("2025년 5월 기준 연령별 인구 현황 분석", encoding='EUC-KR')
 
     # 총인구수 컬럼 이름 변경
     df = df.rename(columns={'2025년05월_계_총인구수': '총인구수'})
