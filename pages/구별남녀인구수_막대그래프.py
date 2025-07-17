@@ -22,4 +22,4 @@ gender_cols = [col for col in df.columns if col.startswith('2025년05월_계_') 
 gender_rename = {col: col.split('_')[-1] for col in gender_cols}  # '남자', '여자'
 
 # 필요한 열만 선택하고 이름 바꾸기
-df_filtered = df[['행정기관명', total_col] + gender_cols].copy]()_
+df_filtered = df['행정기관명', total_col] + gender_cols].copy]()_
